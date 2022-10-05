@@ -1,1 +1,1 @@
-from nbdapi import NationalBank
+from nbdapi.nbdapi import NationalBank
