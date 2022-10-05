@@ -5,7 +5,7 @@ DESCRIPTION = 'nbapi is an open source python library that acts as an API wrappe
 
 # Setting up
 setup(
-    name="nbapi",
+    name="nbdapi",
     version=VERSION,
     author="Andre Ceschia",
     author_email="andre.ceschia04@gmail.com",
