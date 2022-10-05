@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 VERSION = '0.0.2'
-DESCRIPTION = 'nbapi is an open source python library that acts as an API wrapper for National Bank Direct Brokerage.'
+DESCRIPTION = 'nbdapi is an open source python library that acts as an API wrapper for National Bank Direct Brokerage.'
 
 # Setting up
 setup(
