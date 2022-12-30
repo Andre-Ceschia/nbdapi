@@ -8,7 +8,8 @@ nbdapi is an open source python library that acts as a API wrapper for National 
 nbdapi can be used to place both limit and market orders, cancel orders, retrieve account balance, order information, position information (including unrealized gains and losses), real-time quotes and more.
 
 ## Example Usage
-<pre><code>from nbdapi import NationalBank
+```python
+from nbdapi import NationalBank
 
 ticker = 'SU'
 market = 'USA'
@@ -30,4 +31,5 @@ if ask_price < 30:
 
     print(nb.get_positions(account_id)
 else:
-    print('Price too high')</code></pre>
+    print('Price too high')
+```
